@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Covid-19 live cases</h1>
+            <h3>Global confirmed cases: <span id="totalGlobalCases"></span></h3>
+            <h3>Global confirmed deaths: <span id="totalGlobalDeaths"></span></h3>
+            <h3>Global confirmed recoveries: <span id="totalGlobalRecoveries"></span></h3>
+        </header>
+
+        <div class="grid-container">
+            <div class="specific-country" id="specific-country">
+                <select name="country" id="country">
+                </select>
+                <button id="button">Get info</button>
+                <pre>
+                    <!-- SELECTED CONTENT HERE -->
+                </pre>
+            </div>
+            <div class="worldwide" id="worldwide">
+                <h1>No news yet!</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
