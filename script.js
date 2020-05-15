@@ -11,8 +11,10 @@ window.addEventListener('load', () => {
             getCountrySpecificInfo(input.value);
 
             onDelay = true;
+            let n = 5;
             for (let i = 0; i < 5; i++) {
-                delay(i);
+                delay(i, n);
+                n--;
             }
             setTimeout(() => {
                 button.innerText = "Get info";
@@ -24,9 +26,9 @@ window.addEventListener('load', () => {
     })
 })
 
-function delay(i) {
+function delay(i, n) {
     setTimeout(() => {
-        button.innerText = i+1;
+        button.innerText = n;
     }, 1000 * i);
 }
 
