@@ -61,7 +61,7 @@ function getCountrySpecificInfo(userInp) {
 
         countries.forEach(element => {
             if (element.Country == userInp) {
-                outputWindow.innerText = "Total cases: " + element.TotalConfirmed + "\nTotal deaths: " + element.TotalDeaths + "\nTotal Recoveries " + element.TotalRecovered + "\nLast updated: " + element.Date;
+                outputWindow.innerText = "Total cases: " + element.TotalConfirmed + "\nTotal deaths: " + element.TotalDeaths + "\nTotal Recoveries: " + element.TotalRecovered + "\nLast updated: " + element.Date;
             }
         });
     })

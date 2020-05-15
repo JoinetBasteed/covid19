@@ -45,6 +45,7 @@
   border: 1px solid black;
   background-color: #fff;
   width: 78px;
+  float: right;
 }
 
 .container .grid-container .specific-country button:hover {
