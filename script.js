@@ -20,8 +20,6 @@ window.addEventListener('load', () => {
                 button.innerText = "Get info";
                 onDelay = false;
             }, 5000);
-        } else {
-            
         }
     })
 })
