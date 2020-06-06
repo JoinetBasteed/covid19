@@ -21,7 +21,7 @@ window.addEventListener('load', () => {
                 onDelay = false;
             }, 5000);
         } else {
-            alert("Function is on cooldown");
+            
         }
     })
 })
