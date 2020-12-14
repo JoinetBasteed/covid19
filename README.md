@@ -1,4 +1,4 @@
 # covid19
 Check No. cases, deaths and recoveries globally or locally
 
-https://joinetbasteed.github.io/covid19/
+https://jonathanbackhed.github.io/covid19/
